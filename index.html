@@ -4,8 +4,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panaderia Juliana</title>
     <link rel="stylesheet" href="styles.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
 <body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <img src="imgs\logo.png" alt="Panaderia Juliana" width="60" id="header-img">
+                <span class="the-product">Panaderia Juliana</span>
+                <ul class="nav-links">
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="email-section">
+        <h2>Crafting Sweet Memories</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input id="email" type="email" required placeholder="Enter your email address" name="email">
+            <input type="submit" id="submit" value="GET STARTED">
+        </form>
+    </section>
+
+    <section id="features">
+        <div class="feature">
+            <i class="ri-bowl-fill ri-4x icon"></i>
+            <div>
+                <h2>Premium Ingredients</h2>
+            </div>
+            <p>Our cakes are made with the finest, locally sourced ingredients to ensure the highest quality and taste. This commitment to premium materials guarantees that every bite is a delightful experience.</p>
+        </div>
+        <div class="feature">
+            <i class="ri-truck-fill ri-4x icon"></i>
+            <div>
+                <h2>Fast Shipping</h2>
+            </div>
+            <p>We ensure that you receive your cake as soon as it is freshly baked. Our efficient shipping process means your cake arrives in perfect condition, ready to be enjoyed. Plus, we offer free returns if you are not completely satisfied.</p>
+        </div>
+        <div class="feature">
+            <i class="ri-restaurant-2-fill ri-4x icon"></i>
+            <div>
+                <h2>Quality Assurance</h2>
+            </div>
+            <p>Every cake we make undergoes rigorous quality checks. We ensure there are no damages or faults, and each cake is tested for taste and texture to meet our high standards. Your satisfaction is our top priority.
+            </p>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/n4bucphC9r4?si=xKKJ6Rfym1boQ8Ke" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="product-card">
+            <div class="card">
+                <div class="product-image product1"></div>
+                <div class="inner-card">
+                    <div class="cake">Milk'n Berries Cake</div>
+                    <p class="content">Fresh Berries</p>
+                    <p class="content">Whipped Cream</p>
+                    <p class="content">Sponge Cake with Tres Leches</p>
+
+                    <div class="flex">
+                        <p class="price">$26.75</p>
+                    </div>
+
+                    <button class="order-now">
+                        <p style="margin-left: 5px">Order Now</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="product-image product2"></div>
+                <div class="inner-card">
+                    <div class="cake">Chocolate Espresso Cake</div>
+                    <p class="content">Devil's Food Cake</p>
+                    <p class="content">Milk Chocolate Crémeux</p>
+                    <p class="content">Espresso Buttercream</p>
+
+                    <div class="flex">
+                        <p class="price">$48.00</p>
+                    </div>
+
+                    <button class="order-now">
+                        <p style="margin-left: 5px">Order Now</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="product-image product3"></div>
+                <div class="inner-card">
+                    <div class="cake">Custom Celebration Cake</div>
+                    <p class="content">Funfetti Cake</p>
+                    <p class="content">White Chocolate Buttercream</p>
+                    <p class="content">Strawberry Buttercream</p>
+                    <p class="content">Vanilla Bean Buttercream</p>
+
+                    <div class="flex">
+                        <p class="price">$26.75</p>
+                    </div>
+
+                    <button class="order-now">
+                        <p style="margin-left: 5px">Order Now</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>
